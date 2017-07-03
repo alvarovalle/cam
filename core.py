@@ -60,9 +60,9 @@ class BytesDaImagem:
                 if self.pesos[x][y] > media:
                     self.dados[x][y] = (255,0,0)
                 elif self.pesos[x][y] > media / 2:
-                    self.dados[x][y] = (0,255,0)
+                    self.dados[x][y] = (255,255,255)
                 else:
-                    self.dados[x][y] = (0,0,255)
+                    self.dados[x][y] = (255,255,255)
 
 
 class Imprima:
